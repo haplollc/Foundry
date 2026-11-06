@@ -71,9 +71,11 @@ let session = try Kuzco.session(model: base, lora: run.adapterURL)
 
 ## Installation
 
+There are no tagged releases yet, so depend on the `main` branch:
+
 ```swift
 dependencies: [
-    .package(url: "https://github.com/haplollc/Foundry.git", from: "0.1.0")
+    .package(url: "https://github.com/haplollc/Foundry.git", branch: "main")
 ]
 ```
 
